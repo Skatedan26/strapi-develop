@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "name": "card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "titolo": {
+      "type": "string"
+    },
+    "immagine": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

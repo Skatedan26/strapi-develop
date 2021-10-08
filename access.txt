@@ -1,0 +1,3 @@
+DB:
+strapi_usr
+w060IdtU5pgKaxbE
